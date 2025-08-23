@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.10, <3.13"
 resolution-markers = [
     "python_full_version >= '3.12'",
@@ -2853,6 +2853,7 @@ requires-dist = [
     { name = "jupyter", marker = "extra == 'interactive'" },
     { name = "jupyterlab-widgets", marker = "extra == 'interactive'" },
     { name = "matplotlib" },
+    { name = "matplotlib-inline" },
     { name = "matplotlib-inline", specifier = ">=0.1.7" },
     { name = "meson", marker = "extra == 'build'" },
     { name = "mock", marker = "extra == 'docs'" },
